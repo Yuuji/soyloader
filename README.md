@@ -34,3 +34,13 @@ All templates will be collected in this one file.
 Important: The second argument must be a existing folder!
 This will convert the soy templates and will create one js file per soy file.
 The name and the folder structure will be the same as the origin structure.
+
+
+License
+-------
+
+Soyloader is GPLv2, see LICENSE
+
+SoyToJsSrcCompiler.jar is Apache License 2.0:
+License: http://www.apache.org/licenses/LICENSE-2.0
+Source: https://code.google.com/p/closure-templates/
