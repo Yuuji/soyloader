@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/Yuuji/soyloader/issues"
   },
-  "homepage": "https://github.com/Yuuji/soyloader"
+  "homepage": "https://github.com/Yuuji/soyloader",
+  "dependencies": {
+    "chokidar": "",
+    "mkdirp": ""
+  },
+  "devDependencies": {
+    "mocha": "",
+    "should": ""
+  }
 }
