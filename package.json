@@ -1,0 +1,26 @@
+{
+  "name": "soyloader",
+  "version": "0.9.0",
+  "description": "Helper for converting and including soy templates",
+  "main": "lib/main.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yuuji/soyloader.git"
+  },
+  "keywords": [
+    "soy",
+    "templates"
+  ],
+  "author": "Mia Sophie Moeller",
+  "license": "GPLv2",
+  "bugs": {
+    "url": "https://github.com/Yuuji/soyloader/issues"
+  },
+  "homepage": "https://github.com/Yuuji/soyloader"
+}
