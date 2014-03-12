@@ -36,6 +36,9 @@ This will convert the soy templates and will create one js file per soy file.
 The name and the folder structure will be the same as the origin structure.
 
 
+For debugging you can set the third optional argument to true
+
+
 License
 -------
 
