@@ -25,7 +25,8 @@
   "homepage": "https://github.com/Yuuji/soyloader",
   "dependencies": {
     "chokidar": "",
-    "mkdirp": ""
+    "mkdirp": "",
+    "temp": ""
   },
   "devDependencies": {
     "mocha": "",
