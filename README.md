@@ -6,12 +6,16 @@ Soyloader helps to convert and include soy templates
 Use
 -------
 
-The first argument is always the directory where the soy files ale located.
-The second argument has three posible value:
+The templateDir option is always the directory where the soy files ale located.
+The soyFile option has three posible value:
 
 1.
 
-    require('soyloader')(process.cwd() + '/templates', false);
+    require('soyloader')({
+        templateDir: process.cwd() + '/templates',
+        soyFile: false,
+        logging: false
+    });
 
 This will include soy templates into the running node process.
 If you have a templates named "templates.hello.world" you can use it:
@@ -21,7 +25,11 @@ If you have a templates named "templates.hello.world" you can use it:
 
 2.
 
-    require('soyloader')(process.cwd() + '/templates', process.cwd() + '/static/js/templates.js');
+    require('soyloader')({
+        templateDir: process.cwd() + '/templates',
+        soyFile: process.cwd() + '/static/js/templates.js',
+        logging: false
+    });
 
 This will convert the soy templates and write them to the given filename.
 All templates will be collected in this one file.
@@ -29,14 +37,18 @@ All templates will be collected in this one file.
 
 3.
 
-    require('soyloader')(process.cwd() + '/templates', process.cwd() + '/templates-js');
+    require('soyloader')({
+        templateDir: process.cwd() + '/templates',
+        soyFile: process.cwd() + '/templates-js',
+        logging: false
+    });
 
-Important: The second argument must be a existing folder!
+Important: The soyFile option must be a existing folder!
 This will convert the soy templates and will create one js file per soy file.
 The name and the folder structure will be the same as the origin structure.
 
 
-For debugging you can set the third optional argument to true
+For debugging you can set the logging option to true
 
 
 License
