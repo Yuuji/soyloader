@@ -47,6 +47,13 @@ Important: The soyFile option must be a existing folder!
 This will convert the soy templates and will create one js file per soy file.
 The name and the folder structure will be the same as the origin structure.
 
+Callback
+-------
+
+Everytime the building queue is empty, the callback option will be called.
+
+Logging
+-------
 
 For debugging you can set the logging option to true
 
