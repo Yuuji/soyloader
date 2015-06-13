@@ -52,6 +52,11 @@ Callback
 
 Everytime the building queue is empty, the callback option will be called.
 
+Google closure namespace
+-------
+
+If you need the goog.provide and goog.require lines, you can set the provideRequireSoyNamespace option to true
+
 Logging
 -------
 

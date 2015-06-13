@@ -1,6 +1,6 @@
 {
   "name": "soyloader",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "Helper for converting and including soy templates",
   "main": "lib/main.js",
   "directories": {
